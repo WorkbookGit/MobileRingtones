@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".App.UI.OnBoarding.OnBoardingScreen">
+
+
+    <ImageView
+        android:id="@+id/iv_auto_image_slider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_layout"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/slider1"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dot_layout"
+        android:layout_marginBottom="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/stepperTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/steppar_bold_text"
+            android:gravity="center"
+            android:text="@string/enhance_your_device"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:id="@+id/stepperDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stepperTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/stepper_normal_text"
+            android:gravity="center"
+            android:text="@string/express_yourself_with_our_n_exclusive_collection"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/dot_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLayout"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/dot_1"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            android:background="@drawable/wight_btn_bg"
+            android:contentDescription="@string/todo" />
+
+        <ImageView
+            android:id="@+id/dot_2"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            android:background="@drawable/gray_btn_bg"
+            android:contentDescription="@string/todo" />
+
+        <ImageView
+            android:id="@+id/dot_3"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            android:background="@drawable/gray_btn_bg"
+            android:contentDescription="@string/todo" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_toEndOf="@+id/back_btn"
+            android:background="@drawable/wight_btn_bg">
+
+            <TextView
+                android:id="@+id/start_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginVertical="@dimen/_10sdp"
+                android:fontFamily="@font/outfit_medium"
+                android:text="@string/continue_"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <RelativeLayout
+                android:id="@+id/btn_next"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="@dimen/_6sdp"
+                android:background="@drawable/black_round_bg"
+                android:padding="@dimen/_4sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/todo"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/arrow_outward_24" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:background="@drawable/round_ring_stroke_bg"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/todo"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_back_ios_24" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

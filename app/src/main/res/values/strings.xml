@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mobile Ringtones</string>
+    <string name="enhance_your_device">Enhance Your Device \n With Premium Content</string>
+    <string name="express_yourself_with_our_n_exclusive_collection">Express Yourself with our \n Exclusive Collection</string>
+    <string name="continue_">Continue</string>
+    <string name="todo">TODO</string>
+    <string name="no_internet_connection">No InterNet Connection</string>
+    <string name="please_check_your_internet_connection">Please Check Your Internet Connection.</string>
+
+
+    <string name="contact_email">pentone1999@gmail.com</string>
+
+    <string name="amused_city">Amused City</string>
+    <string name="admin">Admin</string>
+    <string name="search">Search</string>
+    <string name="ratingPrefKey">ratingPrefKey</string>
+    <string name="data_not_found">Data not found</string>
+    <string name="please_try_again_later_you_ll_get_better_response">Please try again later! You\'ll get better response.</string>
+    <string name="ringtone_not_found">Ringtone couldn\'t be found! \nPlease try another ringtone.</string>
+
+
+    <string name="ad">Ad\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_ads">Loading ads...</string>
+
+</resources>

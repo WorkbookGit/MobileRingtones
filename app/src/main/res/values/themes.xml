@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">
+        <!-- Set the background color for the splash screen -->
+        <item name="windowSplashScreenBackground">@color/purple_700</item>
+
+        <!-- Set the animated splash icon (usually your app icon) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+
+        <!-- Optional: Set animation duration for the splash icon (default is 1000ms) -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+
+        <!-- After the splash screen, apply the main app theme -->
+        <item name="postSplashScreenTheme">@style/Theme.MobileRingtones</item>
+    </style>
+
+
+    <!--    <style name="Theme.MobileRingtones" parent="android:Theme.Material.Light.NoActionBar" />-->
+
+    <style name="Theme.MobileRingtones" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/yellow_ringtone_bg</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">@color/colorPrimaryDark</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="Theme.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/yellow_ringtone_bg</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#FBCF5D</item>
+        <item name="colorControlActivated">#FBCF5D</item>
+        <!--        <item name="colorControlNormal">@color/yellow_star</item>-->
+        <!--        <item name="colorControlActivated">@color/colorPrimaryDark</item>-->
+    </style>
+
+</resources>

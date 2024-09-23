@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/ic_music"
+        android:enabled="true"
+        android:icon="@drawable/ic_ringtone"
+        android:title="Ringtone"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/ic_SMS"
+        android:enabled="true"
+        android:icon="@drawable/ic_sms"
+        android:title="SMS Ringtone"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/ic_category"
+        android:enabled="true"
+        android:icon="@drawable/ic_category"
+        android:title="Category"
+        tools:ignore="MenuTitle" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/ic_Wallpaper"-->
+    <!--        android:enabled="true"-->
+    <!--        android:icon="@drawable/ic_wallpaper"-->
+    <!--        android:title="Wallpaper"-->
+    <!--        tools:ignore="MenuTitle" />-->
+
+</menu>

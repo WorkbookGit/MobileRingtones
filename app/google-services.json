@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "537552644811",
+    "project_id": "webrtc-demo-39df4",
+    "storage_bucket": "webrtc-demo-39df4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537552644811:android:0303aca9a6263bcfe3094e",
+        "android_client_info": {
+          "package_name": "com.chintandev.webrtc_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTv0ztoCCL_w_7oGnoVwzfaWU8YR_8saE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

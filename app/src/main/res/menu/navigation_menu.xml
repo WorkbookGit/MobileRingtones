@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_privacy_policy"
+            android:icon="@drawable/ic_policy"
+            android:iconTint="@color/white"
+            android:title="Privacy Policy"
+            android:visible="true" />
+        <item
+            android:id="@+id/ic_share"
+            android:icon="@drawable/ic_share"
+            android:iconTint="@color/white"
+            android:title="Share Application" />
+        <item
+            android:id="@+id/ic_Contact_us"
+            android:icon="@drawable/ic_contec"
+            android:iconTint="@color/white"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/ic_rate_us"
+            android:icon="@drawable/ic_star"
+            android:iconTint="@color/white"
+            android:title="Rate us"
+            android:visible="false" />
+    </group>
+</menu>

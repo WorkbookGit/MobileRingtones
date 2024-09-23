@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60852326204",
+    "project_id": "testing-2dc3e",
+    "storage_bucket": "testing-2dc3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60852326204:android:aec29500ad27d443955839",
+        "android_client_info": {
+          "package_name": "com.ssfsdf.adstest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8usaxiszI_hKehpqAKkfdY_iXxXcKma0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
